@@ -1,0 +1,9 @@
+class_path: pytorch_lightning.loggers.TensorBoardLogger
+init_args:
+  save_dir: lightning_logs/
+  name: null
+  version: null
+  log_graph: false
+  default_hp_metric: true
+  prefix: ""
+  sub_dir: null

@@ -1,0 +1,5 @@
+class_path: src.pl_models.LitMLP
+init_args:
+  input_dim: 784
+  embed_dim: 128
+  num_classes: 10

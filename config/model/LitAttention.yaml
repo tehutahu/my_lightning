@@ -1,0 +1,12 @@
+class_path: src.pl_models.LitAttention
+init_args:
+  lr: 0.001
+  input_dim: 784
+  num_instances: 10
+  embed_dim: 384
+  output_dim: 2
+  num_blocks: 4
+  hidden_dim: 1536
+  num_heads: 8
+  bias: false
+  dropout: 0.1

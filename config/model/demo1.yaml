@@ -1,0 +1,4 @@
+class_path: src.model.Model1
+init_args:
+  out_dim: 10
+  learning_rate: 0.02

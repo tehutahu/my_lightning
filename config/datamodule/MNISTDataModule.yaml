@@ -1,0 +1,5 @@
+class_path: src.pl_datamodules.MNISTDataModule
+init_args:
+  batch_size: 64
+  num_workers: 2
+  data_dir: G:\study\pytorch_advanced\10_MIL\data

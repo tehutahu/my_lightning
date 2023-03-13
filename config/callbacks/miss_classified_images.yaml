@@ -1,0 +1,7 @@
+class_path: src.callbacks.MissclassifiedImagesCallback
+init_args:
+  classes: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+  epoch_interval: 2
+  num_images: 25
+  mean: [0.1307]
+  std: [0.3081]

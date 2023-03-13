@@ -1,0 +1,6 @@
+class_path: src.pl_datamodules.MNISTBagDataModule
+init_args:
+  batch_size: 32
+  num_instances: 10
+  target_num: 1
+  data_dir: G:\study\pytorch_advanced\10_MIL\data

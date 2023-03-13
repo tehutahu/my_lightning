@@ -1,0 +1,15 @@
+class_path: pytorch_lightning.callbacks.ModelCheckpoint
+init_args:
+  dirpath: null
+  filename: null
+  monitor: val_loss
+  verbose: false
+  save_last: null
+  save_top_k: 3
+  save_weights_only: false
+  mode: min
+  auto_insert_metric_name: true
+  every_n_train_steps: null
+  train_time_interval: null
+  every_n_epochs: null
+  save_on_train_epoch_end: null
